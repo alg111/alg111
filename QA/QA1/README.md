@@ -15,6 +15,7 @@ x1最大為50 x2最大為30 x3最大為70 x4最大為26 x5最大為42
 <a href="https://gitlab.com/cccnqu111/alg/-/blob/master/A2-QA/integerProgramming/README.md" title="Title">題目敘述</a> 
 
 # 暴力法
+<a href="https://github.com/alg111/alg111/blob/main/QA/QA1/BruteForce.py" title="Title">暴力法</a>
 ```
 import time #讀取程式使用時間
 timestart = time.time()
@@ -53,6 +54,7 @@ print(answer,a,b,c,d,e,"花費了:",timeend-timestart,"秒")
 ```
 # 爬山演算法
 參考同學部分程式碼並做上自己的註解與修改
+<a href="https://github.com/alg111/alg111/blob/main/QA/QA1/HillClimbing.py" title="Title">爬山演算法</a>
 ```
 import random
 import time #讀取程式使用時間
