@@ -15,7 +15,7 @@ x1最大為50 x2最大為30 x3最大為70 x4最大為26 x5最大為42
 <a href="https://gitlab.com/cccnqu111/alg/-/blob/master/A2-QA/integerProgramming/README.md" title="Title">題目敘述</a> 
 
 # 暴力法
-ˋˋˋ
+```
 import time #讀取程式使用時間
 timestart = time.time()
 answer = 0 #答案初始
@@ -42,18 +42,18 @@ for a_temp in range (0,51):
 timeend =  time.time()             #結束時間                             
 print(answer,a,b,c,d,e,"花費了:",timeend-timestart,"秒")
 
-ˋˋˋ
+```
 * 實作
 改變次數答案相同
-'''
+```
 (base) jiangyushangdeMacBook-Air:QA1 jiangyushang$ python BruteForce.py
 331 0 1 13 0 33 花費了: 29.79974603652954 秒
 (base) jiangyushangdeMacBook-Air:QA1 jiangyushang$ python BruteForce.py
 331 0 1 13 0 33 花費了: 11.972163200378418 秒
-'''
+```
 # 爬山演算法
 參考同學部分程式碼並做上自己的註解與修改
-'''
+```
 import random
 import time #讀取程式使用時間
 timestart = time.time()
@@ -133,10 +133,10 @@ Climbing()
 timeend =  time.time()             #結束時間                             
 print("花費了:",timeend-timestart,"秒") 
 
-'''
+```
 * 實作
 更改移動距離發現答案有所不同
-'''
+```
 (base) jiangyushangdeMacBook-Air:QA1 jiangyushang$ python HillClimbing.py
 [8, 8, 8, 8, 7] 250
 移動 101 次
@@ -149,4 +149,4 @@ print("花費了:",timeend-timestart,"秒")
 [9, 7, 7, 7, 7] 238
 移動 104 次
 花費了: 0.0008471012115478516 秒
-'''
+```
