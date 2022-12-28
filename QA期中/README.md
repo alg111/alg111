@@ -90,5 +90,6 @@ class Solution(object):
 <a href="https://ithelp.ithome.com.tw/articles/10268077" title="Title">雜湊法</a>
 
 <a href="https://leetcode.com/problems/two-sum/" title="Title">題目來源</a>
+
 模仿部分程式碼，並加上自身註解
 <a href="https://zyrastory.com/coding/leetcode/leetcode-1-two-sum-解題思路及翻譯/" title="Title">程式參考來源</a>
