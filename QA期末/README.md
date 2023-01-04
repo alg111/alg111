@@ -48,7 +48,7 @@ s consists of parentheses only '()[]{}'
 彈出：將堆疊頂端資料移除，堆疊頂端移到移除後的下一筆資料。
 
 概念圖：
-![GITHUB]( https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/400px-Data_stack.svg.png"堆疊概念圖")
+![GITHUB]( https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/1200px-Data_stack.svg.png "堆疊概念圖")
 
 * 解題思路：
 
